@@ -1,0 +1,6 @@
+framework module jkfjakjf {
+  umbrella header "jkfjakjf-umbrella.h"
+
+  export *
+  module * { export * }
+}

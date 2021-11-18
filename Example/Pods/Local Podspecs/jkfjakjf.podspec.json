@@ -1,0 +1,22 @@
+{
+  "name": "jkfjakjf",
+  "version": "0.1.0",
+  "summary": "A short description of jkfjakjf.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chen/jkfjakjf",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chen": "chen_zhengwen@want-want.com"
+  },
+  "source": {
+    "git": "https://github.com/chen/jkfjakjf.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "jkfjakjf/Classes/**/*"
+}

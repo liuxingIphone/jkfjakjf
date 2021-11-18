@@ -1,0 +1,16 @@
+PODS:
+  - jkfjakjf (0.1.0)
+
+DEPENDENCIES:
+  - jkfjakjf (from `../`)
+
+EXTERNAL SOURCES:
+  jkfjakjf:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jkfjakjf: 71cd135df9ccd805b8dd0b829e1d07adabfb471f
+
+PODFILE CHECKSUM: 4eb835b9b1faccaba0a24e3e042d8f57a120442a
+
+COCOAPODS: 1.11.2
