@@ -23,7 +23,7 @@ pod 'jkfjakjf'
 
 ## Author
 
-chen, chen_zhengwen@want-want.com
+chen, zhengwen
 
 ## License
 
