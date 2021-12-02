@@ -1,5 +1,5 @@
 PODS:
-  - jkfjakjf (0.1.0)
+  - jkfjakjf (2.0.1)
 
 DEPENDENCIES:
   - jkfjakjf (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  jkfjakjf: 71cd135df9ccd805b8dd0b829e1d07adabfb471f
+  jkfjakjf: 0afeebe941c1f599b6225f11085fced8803c0c04
 
 PODFILE CHECKSUM: 4eb835b9b1faccaba0a24e3e042d8f57a120442a
 

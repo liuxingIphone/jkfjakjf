@@ -14,4 +14,11 @@
     NSLog(@"%s", __func__);
 }
 
+
+- (void)test222{
+    
+    NSLog(@"2222");
+    
+}
+
 @end
