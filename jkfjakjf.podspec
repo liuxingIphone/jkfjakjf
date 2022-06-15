@@ -39,4 +39,23 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  if ENV['SOURCECODE']
+    puts '-----------'
+    puts 'jkfjakjf Source Code'
+  else
+    puts '+++++++++++'
+    puts 'jkfjakjf Binary'
+      s.source_files = 'Example/jkfjakjfBinary/Products/Binary-universal/include/**'
+      s.public_header_files = 'Example/jkfjakjfBinary/Products/Binary-universal/include/*.h'
+      s.ios.vendored_libraries = 'Example/jkfjakjfBinary/Products/Binary-universal/libHBAuthenticationBinary.a'
+  end
+  
+  
+  
 end
+
+
+
+
+
