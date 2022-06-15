@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'jkfjakjf'
-  s.version          = '3.0.5'
+  s.version          = '3.1.0'
   s.summary          = 'A short description of jkfjakjf.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'jkfjakjf/Classes/**/*'
+  # s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   
   # s.resource_bundles = {
   #   'jkfjakjf' => ['jkfjakjf/Assets/*.png']
@@ -43,6 +43,9 @@ TODO: Add long description of the pod here.
   if ENV['SOURCECODE']
     puts '-----------'
     puts 'jkfjakjf Source Code'
+    
+    s.source_files = 'jkfjakjf/Classes/**/*'
+  
   else
     puts '+++++++++++'
     puts 'jkfjakjf Binary'
