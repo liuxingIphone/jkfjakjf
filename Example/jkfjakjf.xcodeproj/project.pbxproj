@@ -442,7 +442,7 @@
 		};
 		A09E47DC2858861A00CA2407 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -455,7 +455,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nsh /Users/00393998/Desktop/pods-组件/jkfjakjf/Example/binary.sh\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#sh ../binary.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
