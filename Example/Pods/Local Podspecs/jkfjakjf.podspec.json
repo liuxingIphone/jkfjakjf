@@ -1,6 +1,6 @@
 {
   "name": "jkfjakjf",
-  "version": "2.0.1",
+  "version": "3.0.3",
   "summary": "A short description of jkfjakjf.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/liuxingIphone/jkfjakjf",
@@ -13,10 +13,14 @@
   },
   "source": {
     "git": "https://github.com/liuxingIphone/jkfjakjf.git",
-    "tag": "2.0.1"
+    "tag": "3.0.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "jkfjakjf/Classes/**/*"
+  "source_files": "Example/jkfjakjfBinary/Products/Binary-universal/include/**",
+  "public_header_files": "Example/jkfjakjfBinary/Products/Binary-universal/include/*.h",
+  "ios": {
+    "vendored_libraries": "Example/jkfjakjfBinary/Products/Binary-universal/libjkfjakjfBinary.a"
+  }
 }
